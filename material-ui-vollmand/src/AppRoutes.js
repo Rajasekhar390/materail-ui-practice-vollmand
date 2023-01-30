@@ -6,7 +6,12 @@ import Counter from './pages/counter/counter';
 import List from './pages/lists/List';
 import Lorem from './pages/lorem/lorem';
 import Posts from './pages/posts/Posts';
-import Users from './users/users';
+import SearchTable from './pages/search/searchTable';
+import SortTable from './pages/sortTable/SortTable';
+import Users from './pages/users/users';
+import Pagination from './pages/Pagination/Pagination';
+import SearchId from './pages/SearchId/SearchId';
+import Propile from './pages/search/Propile';
 const AppRoutes = () => {
     return (
         <div ><BrowserRouter>
@@ -18,6 +23,11 @@ const AppRoutes = () => {
                 <Route path='/users' element={<Users />} />
                 <Route path='/posts' element={<Posts />} />
                 <Route path='/lists' element={<List />} />
+                <Route path='/sort' element={<SortTable />} />
+                <Route path='/search' element={<SearchTable />} />
+                <Route path='/pagi' element={<Pagination />} />
+                <Route path='/searchid' element={<SearchId />} />
+                <Route path='/profile' element={<Propile />} />
             </Routes>
         </BrowserRouter> </div>
     )
