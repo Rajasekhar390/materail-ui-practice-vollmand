@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 5vmin;
   pointer-events: none;
 }
 
@@ -31,8 +31,62 @@
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
+    border-radius: 100%;
   }
+
   to {
     transform: rotate(360deg);
+    border-radius: 100%;
   }
+
+}
+
+.row {
+  border: 1px solid orangered;
+  display: flex;
+  justify-content: center;
+}
+
+.hello {
+  width: 200px;
+  background-color: red;
+  height: 50px;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hello1 {
+  width: 200px;
+  background-color:greenyellow;
+  height: 50px;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+.hello2{
+  width: 200px;
+  background-color:blueviolet;
+  height: 50px;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+.hello3 {
+  width: 200px;
+  background-color:orange;
+  height: 50px;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+.hello4 {
+  width: 200px;
+  background-color:black;
+  height: 50px;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
 }
